@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+//import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { TouchGrassComponent } from './touch-grass/touch-grass.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
-  imports: [RouterOutlet, HeaderComponent],
+  imports: [HeaderComponent, TouchGrassComponent, FooterComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
