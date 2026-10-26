@@ -1,23 +1,58 @@
 <main>
+    <!-- First Section-->
+    <section id="what" class="bg-[#e6f1c5] px-6 py-8 md:px-12 md:py-12 mt-0 mb-0max-w-7xl mx-auto rounded-2xl shadow-sm">
+        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+        
+            <div class="flex-1 flex flex-col justify-center">
+                <span class="text-xs uppercase tracking-widest text-emerald-800 font-semibold mb-2">
+                    GET OUTSIDE
+                </span>
 
-    <section id="what">
-        <h2 class="text-2xl font-sans md:font-serif ... bold font mb-4">
-            What Is Touch Grass? Ever Heard of Grass?? 🌿
-        </h2>
-        <p>
-            Get off the couch, bestie. Touch grass means going outside and actually
-            touching the grass . Walk on it barefoot, listen to the birds gossiping
-            in the trees, and let the breeze mess up your hair. Yes, it's free, and
-            no, your phone can't do it for you.
-        </p>
-        <img src="whatSectionImage.jpg" alt="A person touching grass with their hand">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4 leading-tight">
+                    What Is Touch Grass? Ever Heard of Grass?? 🌿
+                </h2>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Get off the couch, bestie. Touch grass means going outside and actually
+                    touching the grass. Walk on it barefoot, listen to the birds gossiping
+                    in the trees, and let the breeze mess up your hair. Yes, it's free, and
+                    no, your phone can't do it for you.
+                </p>
+
+                <div>
+                    <a 
+                    href="#about" 
+                    class="inline-block bg-emerald-700 hover:bg-emerald-600 text-white font-medium py-3 px-6 rounded-xl transition-colors duration-200 shadow-sm"
+                    >
+                        Touch Grass Now!
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex-1 w-full">
+                <img 
+                    src="whatSectionImg.jpeg" 
+                    alt="Touch Grass" 
+                    class="w-full h-[320px] md:h-[380px] object-cover rounded-2xl shadow-sm"
+                />
+            </div>
+
+        </div>
     </section>
 
-    <section id="importance">
-        <h2 class="text-2xl font-sans md:font-serif ... bold font mb-4">
+
+
+    <!-- Importance Section -->
+    <section id="importance" class="px-6 py-12 md:px-16 md:py-16 my-8 max-w-7xl mx-auto">
+        <span class="text-xs uppercase tracking-widest text-emerald-800 font-semibold mb-2 block">
+            REAL TALK
+        </span>
+        
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4 leading-tight">
             Why Would I Need To Touch Grass? You'd Ask!!! 🤨
         </h2>
-        <p>
+
+        <p class="text-gray-700 leading-relaxed max-w-3xl">
             Oh, sweetie, nature cures what your screen is doing to your brain.
             Less stress, better mood, and a brain that can actually come up with
             ideas. Lift your head out of that phone for five minutes and discover
@@ -25,36 +60,7 @@
         </p>
     </section>
 
-    <section id="cases">
-        <h2 class="text-2xl font-sans md:font-serif ... bold font mb-4">
-            Are You Someone Who Might Need To Touch Some Grass? 👀
-        </h2>
-        <div>
-            <article>
-                <img src="" alt="Typical social media user scrolling on a phone">
-                <p>
-                    Scrolling TikTok at 3 AM, knowing every trend and none of your
-                    neighbors. The algorithm is your only friend, and it's not even
-                    a good one.
-                </p>
-            </article>
-            <article>
-                <img src="" alt="Gym bro flexing in a mirror">
-                <p>
-                    Tracking every calorie like the world ends tomorrow. Your macros
-                    have macros. Bro, the grass is free and it doesn't count reps.
-                </p>
-            </article>
-            <article>
-                <img src="" alt="Person obsessed with someone of the opposite gender">
-                <p>
-                    Refreshing their profile for the 40th time today. Plot twist: they
-                    haven't posted since Tuesday. Go touch some grass, it's calmer than
-                    your love life right now.
-                </p>
-            </article>
-        </div>
-
-    </section>
-
+    <app-cases></app-cases>
+    
+    
 </main>
