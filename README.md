@@ -1,6 +1,6 @@
-# Tailiwndcss
+# TouchGrass
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.3.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.3 and for styles it uses TailwindCSS.
 
 ## Development server
 
