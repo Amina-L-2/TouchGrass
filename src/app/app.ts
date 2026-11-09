@@ -1,12 +1,12 @@
 import { Component, signal } from '@angular/core';
-//import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { TouchGrassComponent } from './touch-grass/touch-grass.component';
 import { FooterComponent } from './footer/footer.component';
 
 @Component({
-  imports: [HeaderComponent, TouchGrassComponent, FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent],
   selector: 'app-root',
+  standalone: true,
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
