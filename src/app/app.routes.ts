@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 import { TouchGrassComponent } from './touch-grass/touch-grass.component';
 import { CasesComponent } from './cases/cases.component';
-
 import { ImportanceComponent } from './importance/importance.component';
 
 export const appRoutes: Routes = [
@@ -17,5 +16,5 @@ export const appRoutes: Routes = [
     {
         path: 'cases',
         component: CasesComponent
-    },
+    }
 ]
