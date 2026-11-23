@@ -1,0 +1,37 @@
+<div class="media">
+    <video #animation controls preload="none" 
+        poster="/images/video-logo.png"
+        width="640" height="360"
+    >
+        <source src="/video/touchGrassAnimation.webm" type="video/webm" />
+        <source src="/video/touchGrassAnimation.mp4"  type="video/mp4" />
+
+        <track 
+            kind="captions" 
+            src="/video/touchGrassAnimation-es.vtt" 
+            srclang="es" label="Español" default 
+        />
+
+        Your browser doesn't support the video.
+    </video>
+
+    <p>
+        <strong>Touch some fresh green grass </strong>
+        · Original Video, with subtitles in Spanish
+    </p>
+
+    <!--
+    <p class="note">
+
+        <strong>
+            {{
+            videoVisible
+            ? "Yes, video is visible"
+            : "No,the video is not visible"
+            }}
+        </strong>
+
+    </p>
+    -->
+
+</div>
