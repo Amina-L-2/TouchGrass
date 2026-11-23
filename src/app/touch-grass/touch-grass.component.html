@@ -27,8 +27,21 @@
         </div>
 
         <div class="flex-1 w-full">
-            <img src="images/touchingGrass-1000.webp" alt="A Person Touching Grass"
-                class="w-full h-[320px] md:h-[380px] object-cover rounded-2xl shadow-sm" />
+            
+            <img
+            src="/images/touchingGrass-400.webp"
+            srcset="
+                /images/touchingGrass-400.webp
+                /images/touchingGrass-800.webp
+                /images/touchingGrass-1000.webp
+            "
+            sizes="(max-width: 700px) 100vw, 50vw"
+            width="1200"
+            height="670"
+            alt="A Person Touching Grass"
+            loading="eager"
+            fetchpriority="high"
+            />
         </div>
 
     </div>
